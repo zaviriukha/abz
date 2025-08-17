@@ -1,7 +1,7 @@
 <template>
   <section
     class="relative w-full lg:h-[650px] h-[500px] bg-center bg-cover bg-no-repeat"
-    style="background-image: url('/hero-bg2.webp')"
+    style="background-image: url('/hero-bg3.webp')"
   >
     <div class="absolute inset-0 bg-black/50"></div>
 
