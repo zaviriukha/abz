@@ -1,0 +1,27 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-button: #f4e041;
+  --color-button-hover: #ffe302;
+  --color-error: #cb3d40;
+  --color-background: #f8f8f8;
+  --color-grey-base: #d0cfcf;
+  --color-base-line: #00bdd3;
+  --color-hint: #7e7e7e;
+  --color-disable-bg: #b4b4b4;
+  --color-disable-text: #f5f5f5;
+
+  --font-nunito: 'Nunito', sans-serif;
+}
+
+@layer utilities {
+  .text-body {
+    @apply text-[16px] leading-[26px];
+  }
+  .title-text {
+    @apply text-[40px] leading-[40px];
+  }
+  .hint-text {
+    @apply text-[12px] leading-[14px];
+  }
+}
